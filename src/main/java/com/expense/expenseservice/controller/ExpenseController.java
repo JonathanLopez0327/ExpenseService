@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/expense")
-@Log4j2
 public class ExpenseController {
 
     @Autowired

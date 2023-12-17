@@ -16,4 +16,11 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   application:
     name: EXPENSE-SERVICE
+  config:
+    import:
+      config-server: http://localhost:9226
+
+
+
+
 
